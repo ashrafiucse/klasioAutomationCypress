@@ -1,6 +1,6 @@
 {
-    "emailField": "//input[@id='email']",
-    "passwordField": "//input[@id='password']",
+    "emailField": "#email",
+    "passwordField": "#password",
     "eyeIcon": "//button[@type='button']",
     "loginButton": "//button[@type='submit']",
     "forgetPasswordLink": "//a[contains(text(),'Forgot password?')]",

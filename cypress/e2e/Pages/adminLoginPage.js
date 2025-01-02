@@ -12,7 +12,7 @@ class adminlogin {
         method.typeText(loginLocators.emailField,email);
         method.typeText(loginLocators.passwordField, password);
         method.clickOnElement(loginLocators.loginButton);
-        method.assertTextAnyWhereInViewPort(loginLocators.errorMessageText)
+        method.textVisibleAnywhereInWebpage(loginLocators.errorMessageText)
     }
     signUpNavigationCheck() {
         const loginLocators = require("../Locators/adminLoginPage.json");
