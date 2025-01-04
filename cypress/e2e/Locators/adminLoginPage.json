@@ -5,5 +5,7 @@
     "loginButton": "//button[@type='submit']",
     "forgetPasswordLink": "//a[contains(text(),'Forgot password?')]",
     "signUpLink": "//a[contains(text(),'Sign Up')]",
-    "errorMessageText": "These credentials do not match our records."
+    "errorMessageText": "These credentials do not match our records.",
+    "emailFieldRequiredMsg": "The email field is required.",
+    "passwordFieldRequiredMsg": "The password field is required."
 }

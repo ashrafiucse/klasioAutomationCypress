@@ -31,3 +31,12 @@ export function deselectCheckBox(locator) {
 export function textVisibleAnywhereInWebpage(message) {
     cy.contains(message).should("be.visible");
 }
+export function elementShouldHaveAttribute(locator,attribute,value) {
+    getElement(locator).should('have.attr',attribute,value);
+}
+export function urlShouldContainText(text) {
+    cy.url().should('include', text);
+}
+export function textShouldNotBeVisible(text) {
+    cy.contains(text).should('not.exist');
+}
